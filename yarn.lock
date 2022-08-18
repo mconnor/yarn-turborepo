@@ -49,7 +49,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.0.0, @babel/core@npm:^7.12.9, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0":
+"@babel/core@npm:^7.0.0, @babel/core@npm:^7.13.16, @babel/core@npm:^7.14.0, @babel/core@npm:^7.18.6":
   version: 7.18.10
   resolution: "@babel/core@npm:7.18.10"
   dependencies:
@@ -2520,7 +2520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:^0.69.5":
+"@types/react-native@npm:~0.69.1":
   version: 0.69.5
   resolution: "@types/react-native@npm:0.69.5"
   dependencies:
@@ -2529,7 +2529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.17":
+"@types/react@npm:*, @types/react@npm:~18.0.0":
   version: 18.0.17
   resolution: "@types/react@npm:18.0.17"
   dependencies:
@@ -3937,16 +3937,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cool-app@workspace:apps/cool-app"
   dependencies:
-    "@babel/core": ^7.12.9
-    "@types/react": ^18.0.17
-    "@types/react-native": ^0.69.5
+    "@babel/core": ^7.18.6
+    "@types/react": ~18.0.0
+    "@types/react-native": ~0.69.1
     cool-package: "*"
     expo: ~46.0.7
     expo-status-bar: ~1.4.0
     react: 18.0.0
     react-native: 0.69.4
-    react-native-web: ^0.18.7
-    typescript: ^4.7.4
+    react-native-web: ~0.18.7
+    typescript: ^4.6.3
   languageName: unknown
   linkType: soft
 
@@ -8884,7 +8884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-web@npm:^0.18.7":
+"react-native-web@npm:~0.18.7":
   version: 0.18.7
   resolution: "react-native-web@npm:0.18.7"
   dependencies:
@@ -10660,7 +10660,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.2, typescript@npm:^4.5.3, typescript@npm:^4.7.4":
+"typescript@npm:^4.5.2, typescript@npm:^4.5.3, typescript@npm:^4.6.3, typescript@npm:^4.7.4":
   version: 4.7.4
   resolution: "typescript@npm:4.7.4"
   bin:
@@ -10670,7 +10670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
   resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"
   bin:
